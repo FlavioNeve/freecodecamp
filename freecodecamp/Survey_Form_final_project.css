@@ -1,0 +1,62 @@
+body {
+  higth: 100%;
+  width:  100%;
+  margin: center;
+  paddind:  auto;
+  font-size: 1rem;
+  color: white;
+  background: darkblue;
+  background-image: linear-gradient(115deg, rgba(58, 58, 158,0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 1em auto;
+  width: 60vw;
+}
+
+.margen-inputform {
+  margin: 2px;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  border-radius: 0.25rem;
+  color: #F3F3F3;
+  background: rgba(27, 27, 50, 0.8);
+}
+
+fieldset {
+  width:  100%;
+  padding: 2rem 0;
+  margin: center;
+  border: none; 
+  border-bottom: 2px solid gray;
+}
+
+input {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  padding:  2px 2;
+}
+
+select {
+  width: 100%;
+  padding:  2px 2; 
+}
+
+

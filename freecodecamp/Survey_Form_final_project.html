@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <h2>Thank you for taking time to help us improve the plataform!</h2>
+    <p id="description" style="text-align: center">Please fill out this Form with the required information</p>
+        <form id="survey-form" name="Survey-form">
+        <fieldset>
+         <label for="name-label">Name: <input id="name-label" name="Name" type="text/css" placeholder="Insert your  Name" required></label>
+         <label for="email-label">Email: <input id="email-label" name="Email" type="email" placeholder="Insert your email" place required></label>
+         <labe for="number-label">Number: <input id="number-label" name="Number" type="number" placeholder="Insert your Phone number" minlength="3" maxlength="99" required></label>
+     </fieldset>
+     <fieldset>
+      <p class="margen-inputform">What is your current role?</p>
+      <select id="role" name="Role">
+        <option disabled selected value>Select your current role</option>
+        <options value="student">Student</option>
+        <option value="fulltimejob">Full time job</option>
+        <option value="parttimejob">Part time job</option>
+        <option value="minijob">Minijob</option>
+        <option value="other">Other - - -</option>    
+      </select>
+    </fieldset>
+    <fieldset>
+      <p>Would you recomend us?</p>
+      <label>
+        <input name="user-recomendation" id="recomend-higly" value="higly" type="radio" checked>
+        "Higly"
+      <label>
+    </fieldset>
+      </form>
+  </body>
+</html>
